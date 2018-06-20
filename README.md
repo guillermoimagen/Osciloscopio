@@ -1,7 +1,13 @@
 # Osciloscopio 
 Proyecto para conectar un circuito arduino con un módulo HM10 a un smartphone iPhone con iOS 9/10
 
-Se incluye proyecto en Arduino y APP iOS
+Se incluye programa en Arduino, circuito arduino y APP iOS.
+
+Para operar al circuito Arduino se debe alimentar en los pines analógicos A0-A5 con señales de hasta 5 volts.
+
+El circuito de ejemplo tiene 5 potenciómetros que permiten simular la señal. Un circuito real no debería tener potenciómetros, solo la alimentación en A0-A4
+
+Contamos con un switch que permite cambiar entre señales reales y simuladas
 
 
 # APP IOS
