@@ -90,7 +90,7 @@ void loop() {
   }
 
   // Metemos a un string los 4 valores a enviar por Bluetooth
-  str = String(valor1)+' '+String(valor2)+' '+String(valor3)+' '+String(valor4);
+  str = String(valor1)+' '+String(valor2)+' '+String(valor3)+' '+String(valor4)+'#';
   // convertimos el string a char
   str.toCharArray(cstr,20);
   // enviamos el char a Bluetooth

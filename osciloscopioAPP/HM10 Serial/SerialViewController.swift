@@ -371,8 +371,10 @@ final class SerialViewController: UIViewController, UITextFieldDelegate, Bluetoo
     func serialDidReceiveString(_ message: String) {
         if(reproduciendo) // estamos reproduciendo
         {
+            var messa2=message;
+            messa2.remove(at: messa2.index(before: messa2.endIndex))
             // separamos la cadena en un arreglo
-            var partes = message.components(separatedBy: " ")
+            var partes = messa2.components(separatedBy: " ")
             
             // inicializamos a 0 los valores
             var parte1="0"
